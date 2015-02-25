@@ -76,7 +76,7 @@ function playToFive() {
     		computerWins++;
     	}
 
-    //return [playerWins, computerWins];
+    
     console.log("Player chose " + playerMove + " while Computer chose " + computerMove);
     console.log("The score is currently " + playerWins + " to " + computerWins + "\n");
     } if (playerWins>computerWins) {
@@ -97,7 +97,7 @@ function playTo(x) {
     		computerWins++;
     	}
 
-    //return [playerWins, computerWins];
+    
     console.log("Player chose " + playerMove + " while Computer chose " + computerMove);
     console.log("The score is currently " + playerWins + " to " + computerWins + "\n");
     } if (playerWins>computerWins) {
